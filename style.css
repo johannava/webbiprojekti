@@ -1,0 +1,35 @@
+body {
+    background-color:#4ddbff;
+}
+div {
+       background-color:#ff4d94
+        margin-left: 200px;
+        color:blue
+}
+div.joku-eri-vari-div {
+       background-color:#ff6666;
+        margin-left:200px;
+}
+
+div.tyylikas-div {
+background-color:#ffff33;
+        margin-left: 50px;
+      text-align: center  
+        color:blue
+        background-image: linear-gradiend(to bottom, yellow, #33ff33 50%,orange);
+}
+.margin-tyyli {
+margin-top:100px;
+margin-bottom:100px;
+}
+
+img.kuva-tyyli {
+    width:100px;
+    height:50px;
+}
+#mallikappale {
+    background-color:red;
+}
+#kolmas-div {
+       background-color:#00cc00;
+}
