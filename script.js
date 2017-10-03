@@ -12,6 +12,10 @@ function toggleClass(elemId, className){
     let elem = document.getElementById(elemId);
     elem.classList.toggle(className);
 }
+function switchImage(imgId,path) {
+    let img = document.getElementById(imgId);
+    img.src = path;
+}
 
 
 
