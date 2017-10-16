@@ -1,5 +1,5 @@
 body {
-    background-color:#4ddbff;
+    background-color:white;
 }
 div {
        background-color:#ff4d94
@@ -27,9 +27,46 @@ img.kuva-tyyli {
     width:150px;
     height:150px;
 }
+h1 { 
+font-weight: 300; 
+font-size: 38px; 
+margin: 100px 10px 10px 100px; 
+text-align: center;
+line-height: 120%; 
+text-transform: uppercase;
+font-family: 'Open sans', sans-serif; 
+}
+h2 { 
+font-weight: 200; 
+font-size: 28px; 
+margin: 100px 10px 10px 100px; 
+text-align: center;
+line-height: 120%; 
+color: #5D6D7E
+font-family: 'Open sans', sans-serif; 
+p { 
+font-family: 'Open sans', sans-serif; 
+color: #777777; 
+font-size: 14px; 
+}
+a { 
+color: #f20553; 
+text-decoration: none; 
+}
+a:hover { 
+color: #D80649; 
+text-decoration: none; }
+
 #mallikappale {
     background-color:red;
 }
 #kolmas-div {
        background-color:#00cc00;
 }
+#bannerimage {
+  width: 917 px;
+  background-image: url(piimega-kuva-1.jpg);
+  height: 400px;
+  position: center
+  background-color: white;
+  background-position: center;

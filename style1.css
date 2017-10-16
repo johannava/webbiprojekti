@@ -1,0 +1,42 @@
+body {
+    background-color:white;
+	font-family: 'Open sans', sans-serif; 
+}
+h1 { 
+font-weight: 300; 
+font-size: 38px; 
+margin: 100px 10p;x 10px 100px; 
+text-align: center;
+line-height: 120%; 
+text-transform: uppercase;
+font-family: 'Open sans', sans-serif; 
+}
+h2 { 
+font-weight: 200; 
+font-size: 28px; 
+margin: 10px 10px 10px 10px; 
+text-align: center;
+line-height: 100%; 
+color: #5D6D7E
+font-family: 'Open sans', sans-serif; 
+}
+p { 
+font-family: 'Open sans', sans-serif; 
+color: #777777; 
+font-size: 14px; 
+}
+a { 
+color: #f20553; 
+text-decoration: none; 
+}
+a:hover { 
+color: #D80649; 
+text-decoration: none; 
+}
+#bannerimage {
+  width: 917 px;
+  background-image: url(piimega-kuva-1.jpg);
+  height: 400px;
+  position: center
+  background-color: white;
+  background-position: center;
