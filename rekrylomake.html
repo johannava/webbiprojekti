@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>PiiMega Rekry</title>
         <script src="script.js"></script>
 		<link  <link rel="stylesheet" type="text/css" href="style1.css">
@@ -11,17 +12,23 @@
 				<div>
 					<p><h1>PiiMega avoimet työpaikat</h1>
 						<h2> Voit hakea avoimiin työpaikkoihimme tai jättää avoimen hakemuksen</h2></p>
-					<div>
+					<div id= "lomake"class="lomake">
 						<form action="">
-						<p><label for="etunimi">Etunimi</label>
-							<input name="" type="text" id="etunimi"/></p>
-						<p>Sukunimi</p>
-						<p>Sähköposti</p>
-						<p>Puhelinnumero</p>
-						<p>Syntymäaika</p>
-						<p>Hakemus</p>
-						<p>Cv</p>
-						<input class="button" type="submit" value="Lähetä hakemus">
+						<div><label for="etunimi">Etunimi</label>
+							<input name="" type="text" id="etunimi"/></div>
+                        <div><label for="sukunimi">Sukunimi</label>
+							<input name="" type="text" id="sukunimi"/></div>
+                        <div><label for="sähköposti">Sähköposti</label>
+							<input name="" type="text" id="sähköposti"/></div>
+                        <div><label for="puhelinnumero">Puhelinnumero</label>
+							<input name="" type="text" id="puhelinnumero"/></div>
+                        <div><label for="syntymäaika">Syntymäaika</label>
+							<input name="" type="text" id="syntymäaika"/></div>
+						<div><p>Hakemus</p>
+                            <input name="" type="file" id="hakemus"/></div>
+						<div><p>Cv</p>
+                            <input name="" type="file" id="cv"/></div>
+						<div><input class="button" type="submit" value="Lähetä hakemus"></div>
 						</form>
 					</div>
 			</div>
