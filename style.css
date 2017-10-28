@@ -44,18 +44,28 @@ text-align: center;
 line-height: 120%; 
 color: #5D6D7E
 font-family: 'Open sans', sans-serif; 
+}
 p { 
-font-family: 'Open sans', sans-serif; 
-color: #777777; 
-font-size: 14px; 
+	font-family: 'Open sans', sans-serif; 
+	color: #777777; 
+	font-size: 14px; 
 }
 a { 
-color: #f20553; 
-text-decoration: none; 
+	color: #f20553; 
+	text-decoration: none; 
 }
 a:hover { 
 color: #D80649; 
-text-decoration: none; }
+text-decoration: none; 
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px; 
+	color: #777777;
+}
+
 
 #mallikappale {
     background-color:red;

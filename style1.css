@@ -1,6 +1,6 @@
 body {
     background-color:white;
-	font-family: 'Open sans', sans-serif; 
+	font-family: 'PT sans', sans-serif; 
 }
 .flex-container {
     display: -webkit-flex;
@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     line-height: 120%; 
     text-transform: uppercase;
-    font-family: 'Open sans', sans-serif; 
+    font-family: 'PT sans', sans-serif; 
 }
 h2 { 
     font-weight: 200; 
@@ -25,28 +25,85 @@ h2 {
     text-align: center;
     line-height: 100%; 
     color: #5D6D7E
-    font-family: 'Open sans', sans-serif; 
-}
-p { 
-    font-family: 'Open sans', sans-serif; 
-    color: #777777; 
-    font-size: 14px; 
+    font-family: 'PT sans', sans-serif; 
 }
 a { 
     color: #f20553; 
     text-decoration: none; 
 }
+.topnav {
+    background-color: #777777;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+    text-decoration: none;
+    font-size: 24px;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.topnav a:hover {
+    background-color: none;
+    color:#00aedb ;
+}
+img.logo {
+	float: left;
+	padding: 14px 16px;
+}
 a:hover { 
     color: #D80649; 
     text-decoration: none; 
 }
+.footer {
+    background-color: #f1f1f1;
+	font-family: 'PT sans', sans-serif;
+	text-align: right;
+	font-size: 14px; 
+	padding: 10px;
+	color: #777777;
+}
+.button {
+	 color:black;
+	 background-color:#00aedb;
+	 opacity: 0.9;
+    filter: alpha(opacity=90);
+	 padding:15px 32px;
+	 text-align: center;
+	 margin-top: 30px;
+	 margin-bottom:30px;
+	 font-size: 30 px;
+	 border-radius: 8px;
+	 font-family: 'PT Sans', sans-serif;
+}
+.button:hover {
+    color:#00aedb;
+	 background-color:white;
+	 padding:15px 32px;
+	 text-align: center;
+	 margin-top: 30px;
+	 font-size: 30 px;
+	 border-radius: 8px;
+	 border: 2px solid #00aedb;
+	 font-family: 'PT Sans', sans-serif;
+}
 div.lomake {
- margin-left:350px;
+	margin-left:350px;
+	padding-top: 30px; 
+	font-family: 'Pt Sans', sans-serif; 
+    color: #777777; 
+    font-size: 18 px;
+	line-height: 2;
 }
 #bannerimage {
-  width:  100%;
-  background-image: url(piimega-kuva-1.jpg);
-  height: 400px;
-  position: center
-  background-color: white;
-  background-position: center;
+	width:  100%;
+	background-image: url(piimega-kuva-2.jpg);
+	height: 400px;
+	position: center
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: none;
+	background-position: center;
