@@ -2,13 +2,6 @@ body {
     background-color:white;
 	font-family: 'PT sans', sans-serif; 
 }
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
-}
 h1 { 
     font-weight: 300; 
     font-size: 38px; 
@@ -33,6 +26,7 @@ a {
 }
 .topnav {
     background-color: #777777;
+	
 	opacity: 0.5;
     filter: alpha(opacity=50);
 	overflow: hidden;
@@ -42,17 +36,30 @@ a {
     color: white;
     text-align: center;
     padding: 35px 15px;
+	text-transform:uppercase;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
 	font-family: 'PT Sans Caption', sans-serif;
 }
 .topnav a:hover {
     background-color: none;
-    color:#00aedb ;
+    color: #00ccff ;
+	font-weight: bold
 }
 img.logo {
 	float: left;
+	margin-left: 5%;
 	padding: 14px 16px;
+}
+#bannerimage {
+	width:  100%;
+	background-image: url(piimega-kuva-2.jpg);
+	height: 400px;
+	position: center
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: none;
+	background-position: center;
 }
 a:hover { 
     color: #D80649; 
@@ -67,7 +74,7 @@ a:hover {
 	color: #777777;
 }
 .button {
-	 color:black;
+	 color:white;
 	 background-color:#00aedb;
 	 opacity: 0.9;
     filter: alpha(opacity=90);
@@ -75,8 +82,9 @@ a:hover {
 	 text-align: center;
 	 margin-top: 30px;
 	 margin-bottom:30px;
-	 font-size: 30 px;
-	 border-radius: 8px;
+	 margin-left: 20%;
+	 font-size: 16px;
+	 border-radius: 5px;
 	 font-family: 'PT Sans', sans-serif;
 }
 .button:hover {
@@ -85,25 +93,44 @@ a:hover {
 	 padding:15px 32px;
 	 text-align: center;
 	 margin-top: 30px;
-	 font-size: 30 px;
-	 border-radius: 8px;
+	 font-size: 16px;
+	 margin-left: 20%;
+	 border-radius: 5px;
 	 border: 2px solid #00aedb;
 	 font-family: 'PT Sans', sans-serif;
 }
 div.lomake {
-	margin-left:350px;
-	padding-top: 30px; 
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-between;
+	width: 50%;
+	margin-left: 20%;
+   	padding-top: 30px; 
 	font-family: 'Pt Sans', sans-serif; 
     color: #777777; 
     font-size: 18 px;
 	line-height: 2;
+}	
+.container>div {
+  flex: 0 50%;
 }
-#bannerimage {
-	width:  100%;
-	background-image: url(piimega-kuva-2.jpg);
-	height: 400px;
-	position: center
-	margin-left: 100px;
-	margin-right: 100px;
-	background-color: none;
-	background-position: center;
+.flex-item1 {
+	width: 100%;
+}
+.flex-item2 {
+	width: 100%;
+}
+input[type="text"],
+textarea {
+	width: 50%;
+	padding: 6px;
+	font-size: 16px;
+	border: 1px solid #777777;
+	background: #f4f4f4;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

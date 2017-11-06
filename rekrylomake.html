@@ -8,41 +8,43 @@
 		<link  <link rel="stylesheet" type="text/css" href="style1.css">
     </head> 
 		<body>
+			<!-- Puuttuu vielä responsiivisuus navista -->
 			<div id= "topnav" class="topnav">
 				<img class="logo" src="piimega_logo_300px_valkoinen.png" alt="PiiMega-logo"></a>
-				<a target="_blank"href="https://www.piimega.fi/verkkokauppa/">PiiMega verkkokaupparatkaisut</a> 
+				<a target="_blank"href="https://www.piimega.fi/verkkokauppa/">PiiMega Verkkokaupparatkaisut</a> 
 				<a target="_blank"href="https://www.piimega.fi/">PiiMega Toiminnanohjaus</a> 
 			</div>
+				<!-- Tähän eri näyttökoot -->
 			<header id="bannerimage"></header>
 				<div>
 					<p><h1>PiiMega avoimet työpaikat</h1>
 						<h2> Voit hakea avoimiin työpaikkoihimme tai jättää avoimen hakemuksen</h2></p>
-					<div id= "lomake"class="lomake">
-						<form action="https://docs.google.com/forms/d/e/1FAIpQLSd9LmFydfrVH44fb8pRKYCCxksYeflPP_F2MZXa3sN-2fupOg/formResponse">
-						<div ><label for="tehtävä">Hakemani tehtävä</label>
-							<input name="entry.1833254627" type="text" id="tehtävä"/></div>
-						<div><label for="etunimi">Etunimi</label>
-							<input name="entry.1253645739" type="text" id="etunimi"/></div>
-                        <div><label for="sukunimi">Sukunimi</label>
-							<input name="entry.1109337030" type="text" id="sukunimi"/></div>
-                        <div><label for="sähköposti">Sähköposti</label>
-							<input name="entry.40053307" type="text" id="sähköposti"/></div>
-                        <div><label for="puhelinnumero">Puhelinnumero</label>
-							<input name="entry.1328415143" type="text" id="puhelinnumero"/></div>
-                        <div><label for="syntymäaika">Syntymäaika</label>
-							<input name="entry.1017746655" type="text" id="syntymäaika"/></div>
-						<div><p>Hakemus</p>
-                            <input name="entry.1764326866" type="file" id="hakemus"/></div>
-						<div><p>Cv</p>
-                            <input name="entry.1996813802" type="file" id="cv"/></div>
-						<div><input class="button" type="submit" value="Lähetä hakemus"></div>
-						</form>
-					</div>
-			</div>
+				</div>
+					<!-- Tiedoston lataus ja flexbox ei toimi. Puuttuu myös kiitos vastauksen pysyminen sivulla ja automaattinen kenttien automaattinen tyhjennys. Fonttien muotoilu eri näyttökoolla  -->
+					<form action="https://docs.google.com/forms/d/e/1FAIpQLSd9LmFydfrVH44fb8pRKYCCxksYeflPP_F2MZXa3sN-2fupOg/formResponse">
+						<div id= "lomake"class="lomake">
+								<div class="flex-item1"><label for="tehtävä">Hakemani tehtävä*</label></div>
+									<div class="flex-item2"><input name="entry.1833254627" type="text" id="tehtävä"/></div>
+								<div class="flex-item1"><label for="etunimi">Etunimi*</label></div>
+									<div class="flex-item2"><input name="entry.1253645739" type="text" id="etunimi"/></div>
+								<div class="flex-item1"><label for="sukunimi">Sukunimi*</label></div>
+									<div class="flex-item2"><input name="entry.1109337030" type="text" id="sukunimi"/></div>
+								<div class="flex-item1"><label for="sähköposti">Sähköposti*</label></div>
+									<div class="flex-item2"><input name="entry.40053307" type="text" id="sähköposti"/></div>
+								<div class="flex-item1"><label for="puhelinnumero">Puhelinnumero*</label></div>
+									<div class="flex-item2"><input name="entry.1328415143" type="text" id="puhelinnumero"/></div>
+								<div class="flex-item1"><label for="syntymäaika">Syntymäaika*</label></div>
+									<div class="flex-item2"><input name="entry.1017746655" type="text" id="syntymäaika"/></div>
+								<div class="flex-item1"><label for="hakemus">Hakemus*</label></div>
+									<div class="flex-item"><input name="entry.1764326866" type="file" id="hakemus"/></div>
+								<div class="flex-item1"><label for="cv">CV*</label></div>
+									<div class="flex-item"><input name="entry.1996813802" type="file" id="cv"/></div>
+						</div>
+							<div><input class="button" type="submit" value="Lähetä hakemus"></div>
+					</form>
 		</body>
-	<footer class="footer">
-Copyright PiiMega 2017
-</footer>
+	<footer class="footer">Copyright PiiMega 2017
+	</footer>
 </html>
 	
 	
