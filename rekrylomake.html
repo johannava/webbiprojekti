@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>PiiMega Rekry</title>
-        <script src="script.js"></script>
+        <script src="rekry.js"></script>
 		<link  <link rel="stylesheet" type="text/css" href="style1.css">
     </head> 
 		<body>
@@ -21,7 +21,7 @@
 						<h2> Voit hakea avoimiin työpaikkoihimme tai jättää avoimen hakemuksen</h2></p>
 				</div>
 					<!-- Tiedoston lataus ja flexbox ei toimi. Puuttuu myös kiitos vastauksen pysyminen sivulla ja automaattinen kenttien automaattinen tyhjennys. Fonttien muotoilu eri näyttökoolla  -->
-					<form action="https://docs.google.com/forms/d/e/1FAIpQLSd9LmFydfrVH44fb8pRKYCCxksYeflPP_F2MZXa3sN-2fupOg/formResponse">
+					<form action="https://docs.google.com/forms/d/e/1FAIpQLSd9LmFydfrVH44fb8pRKYCCxksYeflPP_F2MZXa3sN-2fupOg/formResponse" target="_self" method= "POST" id="mG61Hd">
 						<div id= "lomake"class="lomake">
 								<div class="flex-container"><label for="tehtävä">Hakemani tehtävä*</label>
 									<input name="entry.1833254627" type="text" id="tehtävä"/></div>
@@ -35,6 +35,8 @@
 									<input name="entry.1328415143" type="text" id="puhelinnumero"/></div>
 								<div class="flex-container"><label for="syntymäaika">Syntymäaika*</label>
 									<input name="entry.1017746655" type="text" id="syntymäaika"/></div>
+								<div><label for="hakemus">Hakemus*</label></div>
+									<div><textarea name="entry.795079036" rows="10" cols="120"type="text" id="hakemus"></textarea></div>
 						</div>
 							<div><input class="button" type="submit" value="Lähetä hakemus"></div>
 					</form>
